@@ -9,6 +9,40 @@ package classdiagram;
  *
  * @author schul
  */
-public class Person {
+public class Person 
+{
+    private int id;
+    public String name;
+    public String email;
     
+    public void setId(int id)
+    {
+        this.id = id;
+    }
+    
+    public int getId()
+    {
+        return this.id;
+    }
+    
+    public void setName(String name)
+    {
+        this.name = name;
+    }
+    
+    public String getName()
+    {
+        return this.name;
+    }
+    
+     public void setEmail(String email)
+    {
+        this.email = email;
+    }
+    
+    public String getEmail()
+    {
+        return this.email;
+    }
 }
+

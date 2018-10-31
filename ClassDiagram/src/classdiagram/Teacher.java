@@ -9,6 +9,6 @@ package classdiagram;
  *
  * @author schul
  */
-public class Teacher {
+public class Teacher extends Person {
     
 }
